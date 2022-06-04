@@ -6,13 +6,13 @@ function OnboradingHeader() {
             <header id="on-board-header">
                 <div className="container-fluid">
                     <div className="row">
-                        <div className="col-md-4">
+                        <div className="col-md-5">
                             <div className="form-group has-search">
                                 <span className="fa fa-search form-control-feedback"></span>
-                                <input type="text" className="form-control" placeholder="Search" />
+                                <input type="text" className="form-control" placeholder="Search for keywords" />
                             </div>
                         </div>
-                        <div className="col-md-8 d-flex align-items-center justify-content-end">
+                        <div className="col-md-7 d-flex align-items-center justify-content-end">
                             <div className="d-flex button-holder">
                                 <a href="/">
                                     <button type="submit" class="header-theme-btns btn btn-primary me-md-3 me-1">
@@ -31,7 +31,7 @@ function OnboradingHeader() {
                                     </button>
                                 </a>
                             </div>
-                            <div className="notification-holder">
+                            <div className="notification-holder me-md-3 me-1">
                                 <Dropdown>
                                     <Dropdown.Toggle id="dropdown-basic">
                                         <i class="fa fa-bell-o" aria-hidden="true"></i>
@@ -39,13 +39,15 @@ function OnboradingHeader() {
                                             <i class="fa fa-circle" aria-hidden="true"></i>
                                         </span>
                                     </Dropdown.Toggle>
-
                                     <Dropdown.Menu>
                                         <Dropdown.Item href="#/action-1">Action</Dropdown.Item>
                                         <Dropdown.Item href="#/action-2">Another action</Dropdown.Item>
                                         <Dropdown.Item href="#/action-3">Something else</Dropdown.Item>
                                     </Dropdown.Menu>
                                 </Dropdown>
+                            </div>
+                            <div className="question-holder">
+                                <i class="fa fa-question" aria-hidden="true"></i>
                             </div>
                         </div>
                     </div>

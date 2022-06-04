@@ -2,9 +2,26 @@ header#on-board-header {
     padding: 40px;
 }
 .has-search .form-control {
-    padding-left: 2.375rem;
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 20px 0 17px 41px;
+    border: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #b8b8c5;
 }
-.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus{
+.has-search .form-control ::placeholder {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #b8b8c5;
+}
+.btn-check:active + .btn-primary:focus,
+.btn-check:checked + .btn-primary:focus,
+.btn-primary.active:focus,
+.btn-primary:active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
     box-shadow: none;
 }
 .has-search .form-control-feedback {
@@ -13,25 +30,25 @@ header#on-board-header {
     display: block;
     width: 2.375rem;
     height: 2.375rem;
-    line-height: 2.375rem;
+    line-height: 3.7rem;
     text-align: center;
     pointer-events: none;
-    color: #aaa;
+    color: #b8b8c5;
 }
 button.header-theme-btns.btn.btn-primary {
     background: rgba(184, 184, 197, 0.15);
     border-radius: 10px;
     background: rgba(184, 184, 197, 0.15);
     border-radius: 10px;
-    color: #B8B8C5;
+    color: #b8b8c5;
     border: none;
     padding: 13px 29px;
     font-weight: 500;
 }
-.notification-holder .dropdown-toggle::after{
+.notification-holder .dropdown-toggle::after {
     display: none;
 }
-.notification-holder .dropdown button.btn-primary{
+.notification-holder .dropdown button.btn-primary {
     background-color: transparent;
     border: none;
     font-size: 22px;
@@ -41,7 +58,7 @@ button.header-theme-btns.btn.btn-primary {
     background-color: transparent;
     border: none;
     font-size: 26px;
-    color: Gray;
+    color: #b8b8c5;
     position: relative;
 }
 span.notify-circle {
@@ -49,5 +66,16 @@ span.notify-circle {
     position: absolute;
     top: 7px;
     right: 13px;
-    color: #ED4C5C;
+    color: #ed4c5c;
+}
+.question-holder {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #b8b8c5;
+    color: #b8b8c5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
 }
