@@ -1,8 +1,10 @@
+
 import logo from './logo.svg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
 import Header from "./components/Header/Header"
+import OnboradingHeader from "./components/OnboradingHeader/OnboradingHeader";
 import Footer from "./components/Footer/Footer"
 import Step1 from "./components/Step/Step1"
 import Step2 from "./components/Step/Step2"
@@ -19,7 +21,8 @@ import Step11 from './components/Step/Step11';
 function App() {
   return (
     <BrowserRouter>
-		<Header/>
+			{/* <Header /> */}
+			<OnboradingHeader/>
 			<Routes>
 			
 				<Route exact path="/" element={<Welcome/>}/>
@@ -36,7 +39,7 @@ function App() {
 				<Route exact path="/step11" element={<Step11/>}/>
 				
 			</Routes>
-			<Footer/>
+		{/* <Footer /> */}
 		</BrowserRouter>
   );
 }

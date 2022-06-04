@@ -1,5 +1,5 @@
-import { Form, Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom';
+import {Form, Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 function Step1() {
     return (
@@ -42,7 +42,7 @@ function Step1() {
                                 <div className="col-lg-2">
                                     <Form.Group className="form-group">
                                         <Form.Label>State of Residency</Form.Label>
-                                        <Form.Select >
+                                        <Form.Select>
                                             <option> select</option>
                                         </Form.Select>
                                     </Form.Group>
@@ -59,13 +59,16 @@ function Step1() {
                                     <Form.Group className="form-group" >
                                         <Form.Label>Gender</Form.Label>
                                         <div className="mb-3 inline-radio">
-                                            <div class="rdio rdio-primary radio-inline"> <input name="gender"  id="radio1" type="radio"  />
+                                            <div class="rdio rdio-primary radio-inline">
+                                                {" "}
+                                                <input name="gender" id="radio1" type="radio" />
                                                 <label for="radio1">Male</label>
                                             </div>
-                                            <div class="rdio rdio-primary radio-inline"> <input name="gender" id="radio2" type="radio"  />
+                                            <div class="rdio rdio-primary radio-inline">
+                                                {" "}
+                                                <input name="gender" id="radio2" type="radio" />
                                                 <label for="radio2">Female</label>
                                             </div>
-                                           
                                         </div>
                                     </Form.Group>
                                 </div>
@@ -74,14 +77,17 @@ function Step1() {
                                     <Form.Group className="form-group" >
                                         <Form.Label>Citizenship Status</Form.Label>
                                         <div className="mb-3 inline-radio">
-                                            <label className="radio-label">Is this person a citizen of the United States?</label >
-                                            <div class="rdio rdio-primary radio-inline"> <input name="Status"  id="radio1" type="radio"  />
+                                            <label className="radio-label">Is this person a citizen of the United States?</label>
+                                            <div class="rdio rdio-primary radio-inline">
+                                                {" "}
+                                                <input name="Status" id="radio1" type="radio" />
                                                 <label for="radio1">Yes</label>
                                             </div>
-                                            <div class="rdio rdio-primary radio-inline"> <input name="Status" id="radio2" type="radio"  />
+                                            <div class="rdio rdio-primary radio-inline">
+                                                {" "}
+                                                <input name="Status" id="radio2" type="radio" />
                                                 <label for="radio2">No</label>
                                             </div>
-                                           
                                         </div>
                                     </Form.Group>
                                 </div>
@@ -90,8 +96,12 @@ function Step1() {
                     </div>
                 </div>
                 <div className="action-btns">
-                    <Link to="/" className="back"><span className="icon fa fa-arrow-left"></span>Back </Link>
-                    <Link to="/step2" className="btn-orange">Continue <span className="icon fa fa-arrow-right"></span></Link>
+                    <Link to="/" className="back">
+                        <span className="icon fa fa-arrow-left"></span>Back{" "}
+                    </Link>
+                    <Link to="/step2" className="btn-orange">
+                        Continue <span className="icon fa fa-arrow-right"></span>
+                    </Link>
                 </div>
             </div>
         </>

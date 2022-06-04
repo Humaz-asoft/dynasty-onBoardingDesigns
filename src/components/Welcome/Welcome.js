@@ -1,5 +1,5 @@
-import { Form, Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom';
+import {Form, Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 function Welcome() {
     return (
@@ -32,7 +32,9 @@ function Welcome() {
                     </div>
                 </div>
                 <div className="action-btns justify-content-end">
-                    <Link to="/step1" className="btn-orange">Get Started <span className="icon fa fa-arrow-right"></span></Link>
+                    <Link to="/step1" className="btn-orange">
+                        Get Started <span className="icon fa fa-arrow-right"></span>
+                    </Link>
                 </div>
             </div>
         </>
