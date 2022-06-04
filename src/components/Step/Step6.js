@@ -7,26 +7,26 @@ function Step6() {
             <div className="custom-container">
                 <div className="step-wrapper">
                     <div className="heading">
-                        <span className="sub-heading">step 1</span>
-                        <h1>First, we need to know more about you</h1>
+                        <span className="sub-heading">step 6</span>
+                        <h1>Tell us more about your children</h1>
                     </div>
                     <div className="form-wrapper">
                         <Form>
                             <div className="row">
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>First name</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-2">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>M.I (Middle Initial)</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Last name</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
@@ -35,7 +35,7 @@ function Step6() {
                             
                             <div className="row">
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Below 25 years of age?</Form.Label>
                                         <div className="mb-3 inline-radio">
                                             <div class="rdio rdio-primary radio-inline"> <input name="gender"  id="radio1" type="radio"  />
@@ -50,7 +50,7 @@ function Step6() {
                                 </div>
 
                                 <div className="col-lg-7">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Relationship and to which trustee</Form.Label>
                                         <div className="mb-3 inline-radio">
                                             <div class="rdio rdio-primary radio-inline"> <input name="Status"  id="radio1" type="radio"  />
@@ -66,18 +66,19 @@ function Step6() {
                             </div>
                             <div className="row">
                                 <div className="col-lg-6">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Email Address (Optional)</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-6">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Phone Number (Optional)</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                             </div>
+                            <span className="add-more"> <span className="icon fa fa-plus"></span>Add Another Child</span>
                         </Form>
                     </div>
                 </div>

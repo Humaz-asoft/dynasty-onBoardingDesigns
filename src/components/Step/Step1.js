@@ -14,19 +14,19 @@ function Step1() {
                         <Form>
                             <div className="row">
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>First name</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-2">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>M.I (Middle Initial)</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Last name</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
@@ -34,7 +34,7 @@ function Step1() {
                             </div>
                             <div className="row">
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Date of Birth</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
@@ -48,7 +48,7 @@ function Step1() {
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Social Security Number</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
@@ -56,7 +56,7 @@ function Step1() {
                             </div>
                             <div className="row">
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Gender</Form.Label>
                                         <div className="mb-3 inline-radio">
                                             <div class="rdio rdio-primary radio-inline"> <input name="gender"  id="radio1" type="radio"  />
@@ -71,7 +71,7 @@ function Step1() {
                                 </div>
 
                                 <div className="col-lg-7">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Citizenship Status</Form.Label>
                                         <div className="mb-3 inline-radio">
                                             <label className="radio-label">Is this person a citizen of the United States?</label >

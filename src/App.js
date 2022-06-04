@@ -11,6 +11,11 @@ import Welcome from './components/Welcome/Welcome';
 import Step4 from './components/Step/Step4';
 import Step5 from './components/Step/Step5';
 import Step6 from './components/Step/Step6';
+import Step7 from './components/Step/Step7';
+import Step8 from './components/Step/Step8';
+import Step9 from './components/Step/Step9';
+import Step10 from './components/Step/Step10';
+import Step11 from './components/Step/Step11';
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +29,11 @@ function App() {
 				<Route exact path="/step4" element={<Step4/>}/>
 				<Route exact path="/step5" element={<Step5/>}/>
 				<Route exact path="/step6" element={<Step6/>}/>
+				<Route exact path="/step7" element={<Step7/>}/>
+				<Route exact path="/step8" element={<Step8/>}/>
+				<Route exact path="/step9" element={<Step9/>}/>
+				<Route exact path="/step10" element={<Step10/>}/>
+				<Route exact path="/step11" element={<Step11/>}/>
 				
 			</Routes>
 			<Footer/>

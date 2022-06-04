@@ -14,7 +14,7 @@ function Step3() {
                         <Form>
                             <div className="row">
                                 <div className="col-lg-3">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Will your spouse be a co-trustee?</Form.Label>
                                         <div className="mb-3 inline-radio">
                                             <div class="rdio rdio-primary radio-inline"> <input name="gender" id="radio1" type="radio" />
@@ -28,7 +28,7 @@ function Step3() {
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-3">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Spouse of U.S Citizen?</Form.Label>
                                         <div className="mb-3 inline-radio">
                                             <div class="rdio rdio-primary radio-inline"> <input name="gender" id="radio1" type="radio" />
@@ -42,7 +42,7 @@ function Step3() {
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-3">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Spouse of U.S Citizen?</Form.Label>
                                         <div className="mb-3 inline-radio">
                                             <div class="rdio rdio-primary radio-inline"> <input name="gender" id="radio1" type="radio" />
@@ -58,19 +58,19 @@ function Step3() {
                             </div>
                             <div className="row">
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Spouse’s First name</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-2">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Spouse’s M.I </Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Spouse’s Last name</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
@@ -78,7 +78,7 @@ function Step3() {
                             </div>
                             <div className="row">
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Date of Birth</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
@@ -92,7 +92,7 @@ function Step3() {
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-5">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Social Security Number</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
@@ -100,19 +100,19 @@ function Step3() {
                             </div>
                             <div className="row">
                             <div className="col-lg-4">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Spouse’s Social Security Number</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-4">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Spouse’s Email Address (Optional)</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
                                 </div>
                                 <div className="col-lg-4">
-                                    <Form.Group className="form-group" controlId="formBasicEmail">
+                                    <Form.Group className="form-group" >
                                         <Form.Label>Spouse’s Phone Number (Optional)</Form.Label>
                                         <Form.Control type="text" placeholder="" />
                                     </Form.Group>
