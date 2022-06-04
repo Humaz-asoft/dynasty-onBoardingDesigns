@@ -1,0 +1,53 @@
+header#on-board-header {
+    padding: 40px;
+}
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus{
+    box-shadow: none;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+button.header-theme-btns.btn.btn-primary {
+    background: rgba(184, 184, 197, 0.15);
+    border-radius: 10px;
+    background: rgba(184, 184, 197, 0.15);
+    border-radius: 10px;
+    color: #B8B8C5;
+    border: none;
+    padding: 13px 29px;
+    font-weight: 500;
+}
+.notification-holder .dropdown-toggle::after{
+    display: none;
+}
+.notification-holder .dropdown button.btn-primary{
+    background-color: transparent;
+    border: none;
+    font-size: 22px;
+    color: Gray;
+}
+.notification-holder .dropdown button.btn-primary {
+    background-color: transparent;
+    border: none;
+    font-size: 26px;
+    color: Gray;
+    position: relative;
+}
+span.notify-circle {
+    font-size: 10px;
+    position: absolute;
+    top: 7px;
+    right: 13px;
+    color: #ED4C5C;
+}

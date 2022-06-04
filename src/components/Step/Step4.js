@@ -1,5 +1,5 @@
-import { Form, Button } from 'react-bootstrap'
-import { Link } from 'react-router-dom';
+import {Form, Button} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 function Step4() {
     return (
@@ -64,12 +64,15 @@ function Step4() {
                                 </div>
                             </div>
                         </div>
-                        
                     </div>
                 </div>
                 <div className="action-btns">
-                    <Link to="/step3" className="back"><span className="icon fa fa-arrow-left"></span>Back </Link>
-                    <Link to="/step5" className="btn-orange">Continue <span className="icon fa fa-arrow-right"></span></Link>
+                    <Link to="/step3" className="back">
+                        <span className="icon fa fa-arrow-left"></span>Back{" "}
+                    </Link>
+                    <Link to="/step5" className="btn-orange">
+                        Continue <span className="icon fa fa-arrow-right"></span>
+                    </Link>
                 </div>
             </div>
         </>
